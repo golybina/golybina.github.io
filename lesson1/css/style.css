@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.header__main-menu__input-search {
+.search__row {
     border: 0px;
     font-size: 0.9375rem;
     margin-top: 30px;
@@ -49,7 +49,7 @@ ul {
     align-items: center;
 }
 
-.header__top-menu {
+.header__menu_top {
     width: 500px;
     max-width: 500px;
     justify-content: space-around;
@@ -73,16 +73,13 @@ ul {
     align-items: center;
 }
 
-.cart__position_span {
+.cart__span {
     display: inline-block;
     margin: 0px 5px;
-}
-
-.cart__span {
     font-size: 0.875rem;
 }
 
-.cart__span__price {
+.cart__span_price {
     background-color: #e3e8f0;
     padding: 5px 8px;
     font-size: 0.6875rem;
@@ -97,24 +94,24 @@ ul {
     padding: 10px 20px;
 }
 
-.header__main-menu {
+.header__menu_main {
     color: #b9bed1;
     display: flex;
     align-items: center;
 }
 
-.header__main-menu__li:hover {
+.header__item_main:hover {
     color: #343e5c;
 }
 
-.header__main-menu__list {
+.header__list_main {
     width: 100%;
     max-width: 600px;
     justify-content: space-between;
     padding-top: 25px;
 }
 
-.header__main-menu__right-part {
+.header__menu_right {
     margin-left: auto;
     width: 100%;
     max-width: 300px;
@@ -123,18 +120,18 @@ ul {
     align-items: center;
 }
 
-.header__main-menu__border {
+.search_main {
     display: flex;
     border-right: 1px solid #f0f2f7;
     border-left: 1px solid #f0f2f7;
 }
 
-.header__main-menu__span-position {
+.header__span_right {
     padding-top: 25px;
     padding-right: 20px;
 }
 
-.search-icon {
+.search__icon {
     position: relative;
     bottom: -15px;
     padding-right: 10px;
@@ -144,7 +141,7 @@ ul {
 
 /*phone-block*/
 
-.phone-block {
+.phone {
     position: absolute;
     width:100%;
     background-color: #1c1e23;
@@ -156,14 +153,14 @@ ul {
     height: 100%;
 }
 
-.container__phone {
+.phone__container {
     max-width: 900px;
     display: flex;
     justify-content: space-around;
     margin: 0px auto;
 }
 
-.phone-block__header {
+.phone__header {
     position: absolute;
     top: 105px;
     left:215px;
@@ -172,24 +169,21 @@ ul {
     font-weight: 900;
 }
 
-.phone-block__p {
+.phone__p_relative {
     position: absolute;
     top: 225px;
     left:215px;
     font-size: 1rem;
     font-family: 'Crimson Text', 'Arial';
     line-height: 20px;
-}
-
-.phone-block__p__relative {
     padding: 35px 0px 70px;
 }
 
-.phone-block__information__relative {
+.phone__information_relative {
     padding-top: 150px;
 }
 
-.button__phone {
+.phone__button {
     position: absolute;
     top: 352px;
     left:215px;
