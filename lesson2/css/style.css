@@ -1,0 +1,25 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.block__why {
+    background-color: #f3f5f7;
+}
+.header_relative {
+    color: #3b3f6a;
+    font-family: "Arvo",'Arial',serif;
+    padding:55px 0px 120px;
+}
+.advantages__image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.advantages__caption {
+    font-size: 1.375rem;
+    padding:20px 0px 15px;
+}
+.advantages__p {
+    color:#686c8a;
+    font-size: 1.25rem;
+}
