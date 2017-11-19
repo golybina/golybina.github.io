@@ -1,0 +1,158 @@
+/*Rockwell font*/
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url('../fonts/RockwellMT.eot');
+  src: url('../fonts/RockwellMT.eot?#iefix') format('embedded-opentype'), url('../fonts/RockwellMT.woff2') format('woff2'), url('../fonts/RockwellMT.woff') format('woff'), url('../fonts/RockwellMT.ttf') format('truetype'), url('../fonts/RockwellMT.svg#RockwellMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Basic settings*/
+html {
+  font-size: 10px;
+}
+body {
+  color: #202242;
+}
+
+/*fonts mixin*/
+.reg {`
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.semi {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-font {
+  font-family: "Rockwell MT";
+  font-weight: bold;
+}
+.header-font-normal {
+  font-family: "Rockwell MT";
+  font-weight: normal;
+}
+/*Styles header*/
+header {
+  height: 100vh;
+  min-height: 60rem;
+  background: url(../img/background.jpg) no-repeat center center / cover;
+}
+.header-top-block {
+  height: 11rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+.header-logo {
+  height: 11rem;
+  line-height: 11rem;
+}
+.header-logo_text {
+  font-family: "Rockwell MT";
+  font-weight: normal;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.header-nav {
+  border-right: 1px solid #f5f3f3;
+  text-align: center;
+  height: 11rem;
+  line-height: 11rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+.header-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header-nav li a {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #202242;
+}
+.header-nav li a:hover {
+  text-decoration: none;
+}
+.header-nav li.item_active a {
+  color: #ffe13e;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-callback {
+  text-align: center;
+}
+.header-callback_text {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+.header-callback_btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: #ffe13e;
+  color: #202242;
+  margin-right: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-callback_phone {
+  font-size: 2.4rem;
+  font-weight: bold;
+  border-left: 1px solid rgba(32, 34, 66, 0.31);
+  color: #202242;
+  padding-left: 2rem;
+}
+.header-text-block {
+  text-align: center;
+  padding-top: 6%;
+  color: #ffffff;
+}
+.header-text-block h1 {
+  font-size: 4rem;
+  font-family: "Rockwell MT";
+  font-weight: normal;
+  margin-bottom: 0.2rem;
+}
+.header-text-block p {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.header-main-img {
+  margin-top: 2rem;
+}
+.main-form-block {
+  padding-top: 2rem;
+  text-align: center;
+  margin: 4rem auto;
+  width: 50rem;
+  height: 9rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main-form-input {
+  display: inline-block;
+  background-color: #fff;
+  height: 5rem;
+  padding: 1rem;
+  margin-right: -4px;
+  border: none;
+  width: 50%;
+}
+.main-form-btn {
+  display: inline-block;
+  background-color: #ffe13e;
+  height: 5rem;
+  border: none;
+  color: #fff;
+}
+.input-addone {
+  display: inline-block;
+  background-color: #ffe13e;
+  height: 5rem;
+  width: 8rem;
+  vertical-align: middle;
+  line-height: 5rem;
+  margin-right: -3px;
+}
